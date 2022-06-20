@@ -1,0 +1,68 @@
+.data{
+    flex: 1;
+    padding: 10px 0px 0px 20px;
+
+}
+.data__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    height: 40px;
+}
+.data__headerLeft{
+    display: flex;
+    align-items: center;
+}
+.data__headerLeft p{
+    font-size: 17px;
+}
+.data__headerRight svg{
+    margin: 0px 10px;
+}
+.data__grid{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.data__file{
+    text-align: center;
+    border: 1px solid lightgray;
+    margin: 10px;
+    min-width: 200px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 5px;
+}
+.data__file svg{
+    font-size: 60px;
+    color: gray;
+}
+.data__file p{
+    border-top: 1px solid #ccc;
+    margin-top: 5px;
+    font-size: 12px;
+    background-color: whitesmoke;
+    padding: 10px 0px;
+}
+
+.detailsRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+.detailsRow p {
+    display: flex;
+    align-items: center;
+}
+.detailsRow p b{
+    display: flex;
+    align-items: center;
+}
+.detailsRow p svg{
+    font-size: 20px;
+    margin: 10px;
+    font-weight: 700px;
+}

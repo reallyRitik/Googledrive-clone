@@ -1,0 +1,126 @@
+.sidebar{
+    margin-top: 10px;
+
+}
+.sidebar_btn button{
+    background-color: transparent;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    padding: 5px 10px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 2px #ccc;
+}
+.sidebar_btn button span{
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
+.sidebar_options{
+    margin-top: 10px;
+}
+.sidebar_option{
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    border-radius: 0px 20px 20px 0px;
+}
+.sidebar_option:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.sidebar_option span{
+    margin-left: 15px;
+   font-size: 13px;
+   font-weight: 500;
+   color: rgb(78,78,78); 
+}
+
+.sidebar_option-Active{
+    background-color: #e8f0fe;
+}
+.sidebar_option-Active span{
+    color: #1367d2;
+}
+.sidebar_option-Active svg{
+    color: #1367d2;
+}
+.progress_bar{
+padding: 0px 20px;
+}
+.progress_bar span{
+    display: block;
+    font-size: 13px;
+    color: #333;
+}
+
+.open{
+    position: absolute;    
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+
+}
+.modalHeading{
+text-align: center;
+border-bottom: 1px solid rgb(202, 187, 187);
+height: 40px;
+}
+.modalHeading h3{
+    color: rgb(21, 19, 19);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.modal_pop{
+    position: absolute;
+    border: 1px solid rgb(204, 204, 204);
+    background: white;
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    text-align: center;
+    left: 300px;
+    top: 200px;
+    border-radius: 10px;
+    
+}
+.ReactModal__Content{
+    display: contents;
+}
+.file_name{
+    text-align:right;
+    background: lightgray;
+    padding: 4px;
+    font-size: 18px;
+    margin: 4px;
+}
+
+.post_submit{
+width: 100%;
+background: #2381fa;
+padding: 10px 20px;
+color:#fff;
+text-transform: uppercase;
+letter-spacing: 5px;
+font-size: 16px;
+border: 0;
+outline: 0;
+border-radius: 5px;
+cursor: pointer;
+margin-top: 20px;
+
+}
+.uploading{
+    background-color: #078b07;
+    padding: 15px;
+    margin: 20px;
+    color: white;
+    font-family: cursive;
+}
